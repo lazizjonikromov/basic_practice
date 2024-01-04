@@ -1,0 +1,218 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@media (min-width: 1400px) {
+    .container{
+        max-width: 1140px;
+    }
+}
+
+html{
+    width: 100%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+::selection{
+    background-color: #20C1C1;
+    color: #fff;
+}
+
+::-webkit-scrollbar{
+    width: 8px;
+}
+
+::-webkit-scrollbar-track{
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: #20C1C1;
+    border-radius: 10px;
+}
+
+body{
+    font-family: 'Montserrat';
+}
+
+/* Text Colors */
+
+.text-dark-custom{
+    color: #3a3a47 !important;
+}
+
+.text-grey-custom{
+    color: #5c5c5c !important;
+}
+
+.text-light-grey-custom{
+    color: #818198 !important;
+}
+
+.text-dark-blue-custom{
+    color: #383b61 !important;
+}
+
+.text-blue-custom{
+    color: #3498db !important;
+}
+
+.text-green-custom{
+    color: #21bf73 !important;
+}
+
+/* Background Colors */
+
+.bg-primary-custom{
+    background-color: #F0F5F9 !important;
+}
+
+/* Button custom */
+
+.btn{
+    padding: 0 20px;
+    line-height: 38px;
+}
+
+.btn-blue-custom{
+    border: 2px solid #3498db;
+    color: #3498db;
+}
+
+.btn-blue-custom:hover{
+    background-color: #3498db;
+    color: #fff;
+}
+
+.btn-success-custom{
+    border: 2px solid #21bf73;
+    background-color: #21bf73;
+    color: #fff;
+}
+
+.btn-success-custom:hover{
+    background-color: #21bf73;
+    color: #fff;
+}
+
+/* Form custom */
+
+.form-control-custom{
+    color: #222222;
+    font-size: 14px;
+    font-weight: 500;
+    height: 45px;
+    border: 0;
+    border-radius: 5px 0 0 5px;
+    background-color: #F0F5F9;
+    outline: none;
+    padding-left: 20px;
+}
+
+.form-control-custom:focus{
+    background: #F0F5F9;
+    box-shadow: none;
+}
+
+
+/* Navigation menu */
+
+.navbar-brand {
+    font-weight: 500;
+}
+
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .show>.nav-link,
+.navbar-light .navbar-nav .nav-link{
+    font-weight: 500;
+    font-size: 14px;
+    padding: 10px 20px;
+}
+
+.navbar-light .navbar-nav .nav-link-btn{
+    font-weight: 500;
+    font-size: 14px;
+    padding: 0 20px;
+}
+
+.navbar-toggler:focus{
+    box-shadow: none;
+}
+
+/* Home */
+
+.home{
+    padding: 150px 0 100px 0;
+}
+
+/* About */
+
+.about_card_1{
+    background-color: #FFF2E5;
+}
+
+.about_card_2{
+    background-color: #F8F9FA;
+}
+
+.about_card_3{
+    background-color: #F0F5F9;
+}
+
+.about_card_img{
+    width: 80px;
+}
+
+/* Features */
+
+.features_container{
+    background-color: #F0F5F9;
+}
+
+
+/* Results */
+
+.reviews_container{
+    background-color: #F0F5F9;
+    padding: 100px 50px;
+}
+
+.results_card_img{
+    width: 80px;
+}
+
+/* Reviews */
+
+.quote_img{
+    width: 60px;
+    margin-right: 10px;
+}
+
+.review_img{
+    width: 60px;
+}
+
+/* Pricing */
+
+.pricing_card{
+    background-color: #F0F5F9;
+}
+
+.price_img{
+    width: 120px;
+}
+
+/* FAQ */
+
+.faq_container{
+    background-color: #F0F5F9;
+    padding: 100px 50px;
+}
+
+.accordion-button:focus{
+    box-shadow: none;
+}
+
